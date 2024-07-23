@@ -231,7 +231,7 @@ function AddProperty() {
               </Col>
             </Form.Group>
 
-            <Form.Group as={Row} className="mb-3">
+            {/* <Form.Group as={Row} className="mb-3">
               <Form.Label column sm="2">
                 Image
               </Form.Label>
@@ -242,7 +242,7 @@ function AddProperty() {
                   onChange={handleImageChange}
                 />
               </Col>
-            </Form.Group>
+            </Form.Group> */}
 
             <Form.Group as={Row}>
               <Col sm={{ span: 10, offset: 2 }}>

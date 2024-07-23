@@ -208,10 +208,10 @@ function EditProperty() {
           </Form.Control>
         </Form.Group>
 
-        <Form.Group className="mb-3">
+        {/* <Form.Group className="mb-3">
           <Form.Label>Image</Form.Label>
           <Form.Control type="file" name="Image" onChange={handleImageChange} />
-        </Form.Group>
+        </Form.Group> */}
 
         <Button variant="primary" type="submit" className="mb-2">
           Update Property
